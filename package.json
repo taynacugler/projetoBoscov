@@ -8,5 +8,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taynacugler/projetoBoscov.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taynacugler/projetoBoscov/issues"
+  },
+  "homepage": "https://github.com/taynacugler/projetoBoscov#readme",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
+  }
 }

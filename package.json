@@ -1,0 +1,32 @@
+{
+  "name": "projetoboscov",
+  "version": "1.0.0",
+  "description": "Projeto Individual da matéria de Desenvolvimento para Aplicações WEB II, em que o objetivo é fazer uma aplicação de gerenciamento de filmes assistidos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taynacugler/projetoBoscov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taynacugler/projetoBoscov/issues"
+  },
+  "homepage": "https://github.com/taynacugler/projetoBoscov#readme",
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.6.0"
+  }
+}
